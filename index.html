@@ -2,42 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Elizabeth Johnson">
     <title>Navigation and Links | Home</title>
+    <meta name="author" content="Elizabeth Johnson">
+    <meta name="description" content="Practice page demonstrating navigation, anchor links, and linking between pages.">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-
+<body id="top">
     <header>
         <h1>Navigation and Links</h1>
         <nav>
-            <!-- Relative Links (2) -->
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
-
-            <!-- Dummy Links (3) -->
-            <a href="#">Blog</a>
-            <a href="#">Projects</a>
-            <a href="#">Gallery</a>
+            <ul>
+                <!-- Relative Links (2) -->
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- Dummy Links (3) -->
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Link Best Practices</h2>
+        <h2>Link Types Practice</h2>
 
-        <!-- Absolute Link (1) -->
+        <!-- Absolute Link -->
         <p>Visit <a href="https://www.asu.edu" target="_blank">Arizona State University</a> for more information.</p>
 
-        <!-- Email Links (2) -->
+        <!-- Email Links -->
         <p>Email me: 
             <a href="mailto:lizziejohnson30@icloud.com">Primary Email</a> | 
-            <a href="mailto:esjohn15@asu.edu">Alternate Email</a>
+            <a href="mailto:esjohn15@asu.edu">School Email</a>
         </p>
 
-        <!-- Telephone Link (1) -->
-        <p>Call me: <a href="tel:+7202842527">+1 (720) 284-2527</a></p>
+        <!-- Telephone Link -->
+        <p>Call me: <a href="tel:+17202842527">(720) 284-2527</a></p>
 
-        <!-- Fragment Links (7) -->
+        <!-- Fragment Navigation -->
         <nav>
             <a href="#section1">Section 1</a> |
             <a href="#section2">Section 2</a> |
@@ -57,14 +58,23 @@
         <section id="section6"><h3>Section 6</h3><p>Content here.</p></section>
         <section id="section7"><h3>Section 7</h3><p>Content here.</p></section>
 
-        <!-- Relative/Fragment Link (1) -->
+        <!-- Relative/Fragment Link -->
         <p><a href="contact.html#top">Jump to the top of Contact Page</a></p>
     </main>
 
     <footer>
-        <p>&copy; 2025 Your Name</p>
-        <a href="#top">Back to top</a>
+        <section>
+            <h2>Contact Info</h2>
+            <address>
+                1008 Rhen Dr, Tulare CA 93274<br>
+                <a href="tel:+17202842527">(720) 284-2527</a><br>
+                <a href="mailto:lizziejohnson30@icloud.com">Email Elizabeth Johnson</a>
+            </address>
+        </section>
+        <div id="btt">
+            <a href="#top"><span>↑</span> Back to Top</a>
+        </div>
+        <p>&copy; 2025 Elizabeth Johnson</p>
     </footer>
-
 </body>
 </html>
